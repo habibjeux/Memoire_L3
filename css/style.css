@@ -1,0 +1,51 @@
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(120deg, #411cc8, #5e9bf5);
+
+}
+
+#logo {
+    width: 50%;
+}
+.contenu {
+    background-color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+#btnLogin {
+    background-color: #646dee;
+}
+
+.cercle {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.divCenter {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bi-check-circle-fill {
+    font-size: 150px;
+}
